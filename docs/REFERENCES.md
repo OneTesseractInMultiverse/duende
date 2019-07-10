@@ -1,9 +1,13 @@
-[TinkerPop](http://tinkerpop.apache.org/docs/current/reference/#addvertex-step)
+## The following list contains the links to documentation used to build this library
 
-[Dev Environment](https://github.com/OneTesseractInMultiverse/janusgraph-docker-1)
+- [TinkerPop](http://tinkerpop.apache.org/docs/current/reference/#addvertex-step)
 
-[Gremlin](https://github.com/tinkerpop/gremlin/wiki/Basic-Graph-Traversals)
+- [Dev Environment](https://github.com/OneTesseractInMultiverse/janusgraph-docker-1)
 
-[Gremlin Book](https://kelvinlawrence.net/book/Gremlin-Graph-Guide.html#lab)
+- [Gremlin](https://github.com/tinkerpop/gremlin/wiki/Basic-Graph-Traversals)
 
-[Python Operators](https://www.geeksforgeeks.org/operator-overloading-in-python/)
+- [Gremlin Book](https://kelvinlawrence.net/book/Gremlin-Graph-Guide.html#lab)
+
+- [Python Operators](https://www.geeksforgeeks.org/operator-overloading-in-python/)
+
+- [Avro Python](https://avro.apache.org/docs/1.8.2/gettingstartedpython.html)
