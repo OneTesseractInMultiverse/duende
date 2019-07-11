@@ -59,6 +59,7 @@ class Duende(object):
     # METHOD CREATE VERTEX
     # -------------------------------------------------------------------------
     def _create_vertex(self, label, properties: dict):
+        print(properties)
         if 'uid' not in properties.keys():
             raise AttributeError('All vertices must contain a uid')
 
@@ -78,6 +79,13 @@ class Duende(object):
         for key in selector.keys():
             result = result.has(key, selector[key])
         return result.next()
+
+    def connect(self, mapping: dict):
+        return self.connect_two_vertices(
+            mapping['origin'],
+            mapping['target'],
+            mapping['edge']
+        )
 
     # -------------------------------------------------------------------------
     # METHOD CONNECT TWO VERTICES
